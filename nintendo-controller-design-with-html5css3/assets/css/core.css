@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*--=====default style start=====--*/
+
+/*--=====remove this css and start writing your code=====--*/
+.remove-this-class {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background: #f0e80f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #3e3e3e;
+}
+
+.remove-this-class h1 span {
+    display: block;
+    font-size: 102px;
+}
+.remove-this-class-img {
+    width: 20%;
+    margin: 20px 0;
+    transform: rotate(0deg);
+    transition: transform .3s ease 0s;
+}
+.remove-this-class-img:hover {
+    transform: rotate(-90deg);
+    transition: transform .3s ease 0s;
+}
+
+.remove-this-class-img img {
+    width: 100%;
+}
+
+.remove-this-class ul {
+    margin: 10px 0;
+    width: 30%;
+    color: #fff;
+}
+
+.remove-this-class ul li {
+    background: #604ccb;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background .3s ease 0s;
+}
+
+.remove-this-class ul li:hover {
+    background: #3c307d;
+    transition: background .3s ease 0s;
+}
+
+.remove-this-class strong i {
+    padding-top: 20px;
+}
+
+.remove-this-class strong,
+.remove-this-class strong i {
+    display: block;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+
+
+/*--=====default style end=====--*/

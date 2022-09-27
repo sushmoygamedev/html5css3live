@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*desktop viewport*/
+	/*fixwidth desktop large*/
+	.wrapper, .wrap{
+	    min-width: 1170px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.structure, .struc{
+	    width: 1170px;
+	    margin: 0 auto;
+	}
+
+/*device viewport*/
+
+/*Tablet Layout Potrait: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*fixwidth tablet portait*/
+	.wrapper, .wrap{
+		min-width: 750px;
+	}
+	.structure, .struc{
+		width: 750px;
+	}
+
+	/*other content*/
+}
+
+/*Tablet Layout Landscape: 1024px*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	/*fixwidth tablet landscape*/
+	.wrapper, .wrap{
+		min-width: 1000px;
+	}
+	.structure, .struc{
+		width: 1000px;
+	}
+
+	/*other content*/
+}
+
+/*Mobile Layout Potrait: 320px*/
+@media only screen and (max-width: 767px) {
+	/*fixwidth mobile portait*/
+	.wrapper, .wrap{
+		min-width: 300px;
+	}
+	.structure, .struc{
+		width: 300px;
+	}
+
+	/*other content*/
+}
+
+/*Mobile Layout Landscape: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*fixwidth mobile landscape*/
+	.wrapper, .wrap{
+		min-width: 450px;
+	}
+	.structure, .struc{
+		width: 450px;
+	}
+
+	/*other content*/
+}
