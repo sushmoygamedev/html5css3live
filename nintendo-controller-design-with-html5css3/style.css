@@ -1,8 +1,12 @@
 @charset "utf-8";
-
+:root {
+    --pri-color: #fff;
+    --sec-color: #121212;
+}
 .controller-body {
     position: relative;
     height: 100vh;
+    background-color: var(--sec-color);
 }
 
 .controller-outer {
